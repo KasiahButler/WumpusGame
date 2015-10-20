@@ -1,0 +1,14 @@
+Wumpus Assessment Postmortem:
+
+SCOPE:
+	The goal while working on this assessment was to create a game based off of the Wumpus rule set that provides a clean and user friendly
+experience and makes use of all of the basic Wumpus rules as well as to create a String Class based on the outline provided. I was able to create the
+Wumpus game without any real major issues other than the formatting of my code so that it runs in the correct order, the String Class however was
+a far more difficulat endeavor and is where I ran into most of my issues. These issues were mostly derived from my weakness in reading another persons 
+premade skeleton code which is a skill I really needed to work on and has improved by working through the String Class, though
+I did require quite a bit of outside help from fellow Classmates and Esme or Terry in completing the String Class, after I was finished 
+I feel far more comfortable in my abilities to create my own at a later date. I'm relatively proud of how my Wumpus Game came out, 
+the Classes created are fully functioning and allowed for a much more readable set of code than my previous attempts at games of this type as well as 
+making it far easier to work with. The game is functional though missing pitfalls which i could add relatively easy if I had more time thanks 
+to the implementation of a universal "Enemy" Class but overall the effect isn't entirely detrimental to the game.
+

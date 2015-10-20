@@ -1,0 +1,24 @@
+﻿Build started 10/20/2015 11:35:40 AM.
+     1>Project "C:\Users\kasiah.butler\Documents\Visual Studio 2015\Projects\WumpusGame\WumpusGame\WumpusGame.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt FileIO.cpp Game.cpp GameState.cpp Source.cpp
+         FileIO.cpp
+         Game.cpp
+         GameState.cpp
+         Source.cpp
+     1>Source.cpp(80): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kasiah.butler\Documents\Visual Studio 2015\Projects\WumpusGame\Release\WumpusGame.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\kasiah.butler\Documents\Visual Studio 2015\Projects\WumpusGame\Release\WumpusGame.pdb" /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kasiah.butler\Documents\Visual Studio 2015\Projects\WumpusGame\Release\WumpusGame.lib" /MACHINE:X86 /SAFESEH Release\FileIO.obj
+         Release\Game.obj
+         Release\GameState.obj
+         Release\Source.obj
+         Generating code
+     1>c:\users\kasiah.butler\documents\visual studio 2015\projects\wumpusgame\wumpusgame\source.cpp(75): warning C4715: 'Player::fire': not all control paths return a value
+         All 147 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         Finished generating code
+         WumpusGame.vcxproj -> C:\Users\kasiah.butler\Documents\Visual Studio 2015\Projects\WumpusGame\Release\WumpusGame.exe
+     1>Done Building Project "C:\Users\kasiah.butler\Documents\Visual Studio 2015\Projects\WumpusGame\WumpusGame\WumpusGame.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.15

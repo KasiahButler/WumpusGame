@@ -1,0 +1,13 @@
+Wumpus Rules:
+
+1: Double Click the WumpusGame.exe
+2: Enter Your Name
+3: Choose play or exit by entering the correct number and pressing Enter
+4: follow the onscreen prompts through the game by entering your choice
+and pressing Enter
+
+The goal of Wumpus is to hunt down and hit the wumpus with an arrow but be careful if you enter the same rooom as the wumpus
+it will eat you so you have to shoot into a room of your choice when you smell a Wumpus! (Shown at the top of the screen under "Information:"
+. There is also a Bat within the cave that will drop you in a random location if you enter the same room as it! you will be warned that there
+is a bat by hearing squeaking (Also shown at the top of the screen under "Information: "). Included is a map of the cave you will be exploring
+titled "WumpusCave.gif".
