@@ -10,7 +10,7 @@ int main()
 		switch (current)
 		{
 		case MENU: current = mainMenu(); break;
-		case UPDATE: upGame();
+		case UPDATE: upGame(); break;
 		case GAME: current = mainGame(); break;
 		case EXIT: return false;
 		}

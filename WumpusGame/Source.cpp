@@ -14,6 +14,7 @@ int chkValidRoom(int pChoice, int curRm)
 			return true;
 		}
 	}
+	std::cout << "Invalid Room Choice" << std::endl;
 	return false;
 }
 
@@ -35,38 +36,6 @@ int chkValidEntry(int min, int max)
 		else break;
 	} while (true);
 	return choice;
-}
-
-STATE mainMenu()
-{
-	int choice = 0;
-
-	system("cls");
-	std::cout << "      Welcome to Hunt the Wumpus!       " << std::endl;
-	std::cout << "A Text game by SniperCorgii Productions!" << std::endl;
-	std::cout << "1: Play" << std::endl;
-	std::cout << "2: Exit" << std::endl;
-	choice = chkValidEntry(1, 2);
-	if (choice == 1)
-	{
-		return UPDATE;
-	}
-	else if (choice == 2)
-	{
-		return EXIT;
-	}
-	else return MENU;
-
-}
-
-void upGame()
-{
-
-}
-
-STATE mainGame()
-{
-	return EXIT;
 }
 
 //Moves the player to the next room (currentRoom, pChoice)
@@ -91,7 +60,7 @@ void Player::fire(int arrow, int mons)
 		}
 		else std::cout << "Woops, you missed!" << std::endl;
 	}
-	std::cout << "Invalid Room choice!" << std::endl;
+	--arrows;
 }
 
 //Sets new enemy currentRoom (currentRoom)
@@ -114,10 +83,10 @@ int Enemy::chkNearMonsters(int pCur)
 				std::cout << "You smell a wumpus!" << std::endl;
 				break;
 			case 2:
-				std::cout << "You feel a breeze" << std::endl;
+				std::cout << "You hear squeaking coming from nearby" << std::endl;
 				break;
 			case 3:
-				std::cout << "You hear squeaking" << std::endl;
+				std::cout << "You feel a slight breeze" << std::endl;
 				break;
 			}
 			return true;
@@ -130,7 +99,7 @@ int Enemy::chkNearMonsters(int pCur)
 //checks if the player is in the same room as monster and takes appropriate action
 int Enemy::monsAction(int & pRoom)
 {
-	srand(time(NULL));
+	srand(0);
 	if (currentRoom == pRoom)
 	{
 		switch (monsNum)
